@@ -10,7 +10,7 @@ api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
 
 # 🔹 Use model once (efficient)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-3-flash-preview")
 
 
 # 🔍 ISSUE GENERATOR
